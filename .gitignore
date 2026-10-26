@@ -1,0 +1,16 @@
+
+# Python environments
+kiet-env/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
