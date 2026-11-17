@@ -10,7 +10,7 @@ Imported from [sqb-codes/KU-CS-MLOPS](https://github.com/sqb-codes/KU-CS-MLOPS/t
 ## Project layout
 
 ```
-aiops/
+customer-churn-mlops/
 ├── data/raw/Telco-Customer-Churn.csv   # input data (git-ignored, not committed)
 ├── src/
 │   ├── config.py           # paths + local MLflow settings
@@ -57,7 +57,7 @@ Requires Python 3.10+.
 ### macOS (zsh/bash)
 
 ```bash
-cd aiops
+cd customer-churn-mlops
 
 # Create and activate a virtual environment
 python3 -m venv .venv
@@ -70,7 +70,7 @@ pip install -r requirements.txt
 ### Windows (PowerShell)
 
 ```powershell
-cd aiops
+cd customer-churn-mlops
 
 # Create and activate a virtual environment
 py -m venv .venv
@@ -86,7 +86,7 @@ pip install -r requirements.txt
 > it instead: `source ../kiet-env/bin/activate` (macOS) or
 > `..\kiet-env\Scripts\Activate.ps1` (Windows).
 
-Download the [IBM Telco Customer Churn CSV](https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv) from the `aiops` folder:
+Download the [IBM Telco Customer Churn CSV](https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv) from the `customer-churn-mlops` folder:
 
 ```powershell
 Invoke-WebRequest 'https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv' -OutFile 'data/raw/Telco-Customer-Churn.csv'
@@ -103,7 +103,7 @@ curl --fail --location 'https://raw.githubusercontent.com/IBM/telco-customer-chu
 ## Run
 
 The commands are the same on macOS and Windows PowerShell once the
-environment is active. Run them from the `aiops` folder.
+environment is active. Run them from the `customer-churn-mlops` folder.
 
 ```bash
 # 1. Run the tests (~10 s; uses temporary folders and a temporary MLflow DB)
