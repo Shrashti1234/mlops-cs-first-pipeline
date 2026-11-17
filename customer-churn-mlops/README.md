@@ -5,8 +5,6 @@ This project predicts which telecom customers are likely to churn, using the
 training, model comparison, MLflow experiment tracking, and a separate,
 manual model-promotion step.
 
-Imported from [sqb-codes/KU-CS-MLOPS](https://github.com/sqb-codes/KU-CS-MLOPS/tree/7b03c54e6987b6549a90f23ec95048dad3c92eda/customer-churn-mlops) at commit `7b03c54`.
-
 ## Project layout
 
 ```
@@ -86,17 +84,7 @@ pip install -r requirements.txt
 > it instead: `source ../kiet-env/bin/activate` (macOS) or
 > `..\kiet-env\Scripts\Activate.ps1` (Windows).
 
-Download the [IBM Telco Customer Churn CSV](https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv) from the `customer-churn-mlops` folder:
-
-```powershell
-Invoke-WebRequest 'https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv' -OutFile 'data/raw/Telco-Customer-Churn.csv'
-```
-
-On macOS or Linux, use:
-
-```bash
-curl --fail --location 'https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv' --output data/raw/Telco-Customer-Churn.csv
-```
+Place the dataset at `data/raw/Telco-Customer-Churn.csv`.
 
 ---
 

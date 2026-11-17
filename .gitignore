@@ -28,6 +28,3 @@ kiet-env/
 *.tmp
 
 mlartifacts/
-mlruns/
-mlflow.db*
-.pytest_cache/

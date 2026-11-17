@@ -1,8 +1,8 @@
-scikit-learn==1.9.1
+scikit-learn
 fastapi
 uvicorn
 joblib
 pydantic
 pytest
 httpx
-mlflow==3.17.2
+mlflow

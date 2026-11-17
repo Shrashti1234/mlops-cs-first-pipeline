@@ -1,10 +1,26 @@
-# MLOps Projects
+# CS Study Repository
 
-Two machine learning projects covering model training, experiment tracking with MLflow, and inference.
+This repository contains coursework, notes, assignments, and practice files for Computer Science studies.
 
-| Project | What it covers |
-| --- | --- |
-| [Customer Churn MLOps](customer-churn-mlops/) | Compare three classifiers on the IBM Telco Customer Churn dataset, track experiments, and register and promote a model in MLflow. |
-| [Iris ML Pipeline](mlops-first-pipeline/) | Train a Random Forest, register its champion version in MLflow, and serve predictions with FastAPI and Docker. |
+## Contents
 
-Open each project for setup and run instructions. GitHub Actions tests the Iris API and publishes its Docker image from the main branch.
+- Core CS subjects and study materials
+- Lab work and programming exercises
+- Notes and revision resources
+- Project and assignment-related files
+
+## Structure
+
+Use this directory to organize your study materials by topic, subject, or semester.
+
+## Goals
+
+- Build a clean and reusable academic workspace
+- Track learning progress across subjects
+- Keep notes, code, and assignments in one place
+
+## Notes
+
+- Keep files well-named and organized
+- Update this README as the repository grows
+- Maintain clean documentation for easier revision and collaboration
